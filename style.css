@@ -1,8 +1,8 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #66CC99;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
+    --color-button: #336633;
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
@@ -32,7 +32,7 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
+    flex: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
