@@ -14,7 +14,7 @@ function agregarAmigo() {
     let nombreAmigo = inputAmigo.value;     //Obtiene valor
 
     if (!nombreAmigo) { //Si no se ingresa nombre (Evita generar registros vacíos)
-        alert ("Ingesa un nombre por favor"); 
+        alert ("Ingresa un nombre por favor"); 
         return;
     }
     amigos.push(nombreAmigo); //Agrega nombre a la lista "amigos"
@@ -42,7 +42,7 @@ aleatoriamente un nombre de la lista y se mostrará en la página. */
 
 function sortearAmigo(){
     if (amigos.length == 0) { //Si NO hay nombres en la lista "amigos" antes de sortear
-        alert ("No es posible sortear. Agrega nombre primero.");
+        alert ("No es posible sortear. Agrega un nombre primero.");
         return;
     }
   
